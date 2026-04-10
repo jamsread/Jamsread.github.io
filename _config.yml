@@ -1,1 +1,16 @@
 theme: jekyll-theme-minimal
+
+title: Jamsread
+description: C++ Client Engineer | Desktop · NAS · Tooling
+
+show_downloads: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
