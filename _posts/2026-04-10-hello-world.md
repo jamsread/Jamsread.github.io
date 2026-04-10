@@ -1,10 +1,9 @@
 ---
-layout: default
 title: "Hello World：我的第一篇博客"
-date: 2026-04-10
+date: 2026-04-10 10:00:00 +0800
+categories: [博客, 随笔]
+tags: [hello-world, jekyll, github-pages]
 ---
-
-# Hello World：我的第一篇博客
 
 欢迎来到我的个人博客！这是我用 GitHub Pages + Jekyll 搭建的第一篇文章。
 
@@ -24,10 +23,10 @@ date: 2026-04-10
 这个博客使用：
 
 - **Jekyll** 作为静态站点生成器
+- **Chirpy** 主题，现代美观，支持深色模式
 - **GitHub Pages** 托管与自动部署
-- **Minimal** 主题，简洁清爽
 
-后续我会根据需要做一些自定义样式调整。
+后续我会根据需要做一些自定义调整。
 
 ---
 

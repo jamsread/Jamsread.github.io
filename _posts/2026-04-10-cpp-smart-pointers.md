@@ -1,10 +1,9 @@
 ---
-layout: default
 title: "C++ 智能指针实践：从 unique_ptr 到 shared_ptr"
-date: 2026-04-10
+date: 2026-04-10 14:00:00 +0800
+categories: [技术, C++]
+tags: [c++, smart-pointer, memory-management]
 ---
-
-# C++ 智能指针实践：从 unique_ptr 到 shared_ptr
 
 在现代 C++ 开发中，智能指针几乎取代了裸指针的日常使用。这篇文章分享我在实际项目中使用智能指针的一些经验。
 
@@ -30,7 +29,8 @@ window->setConfig(config);
 toolbar->setConfig(config);
 ```
 
-**注意**：避免循环引用，必要时搭配 `std::weak_ptr`。
+> 避免循环引用，必要时搭配 `std::weak_ptr`。
+{: .prompt-warning }
 
 ## 实际项目中的选择
 
@@ -57,7 +57,3 @@ class Editor {
 | `weak_ptr` | 观察 | 近零 | 缓存、防循环 |
 
 选择智能指针的原则：**能用 unique 就不用 shared，能用 shared 就不用裸指针**。
-
----
-
-→ [返回首页](/)
